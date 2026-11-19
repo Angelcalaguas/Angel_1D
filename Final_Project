@@ -1,0 +1,157 @@
+print("========================================================================")
+print("                          PYTHON TUTORIAL PROGRAM")
+print("========================================================================")
+
+while True:
+    print(
+"""TUTORIAL MENU:
+========================================================================
+1. Introduction to programming
+2. Python syntax
+3. Python printing output
+4. Python comments
+5. Python variables
+6. Python output variables
+7. Python data types
+8. Python arithmetic operators & Expression
+9. Python basic input & output
+10. Python conditional statement & relational Operators
+11. Python if statement
+12. Python if-else statement
+13. Python if-elif-else statement
+14. Python nested condition
+15. Python logical operator
+16. Python iteration & loops
+17. for loop
+18. While loop
+19. Exit Program
+========================================================================""")
+
+    choice = input("Enter your choice (1‑19): ")
+
+    if choice == "1":
+        print(
+"""========================================================================
+1. Introduction to Programming
+
+Python is a popular, beginner‑friendly high‑level programming language created by Guido van Rossum in 1991, A dutch software engineer. It lets programmers write instructions (code) that computers can understand to make programs, apps, games, calculators, tutorials, and more.
+
+Main Features:
+1. Simple & easy to read
+2. Interpreted language
+3. Multi‑purpose
+4. Cross‑platform
+========================================================================""")
+
+        while True:
+        back_menu = input("\n✅ Press Y to return to MAIN MENU: ").upper()
+        if back_menu == "Y":
+            break
+        else:
+            print("❌ Please enter only Y to go back to the menu!")
+
+
+    elif choice == "2":
+        print(
+"""========================================================================
+2. Python Syntax
+
+Python syntax means the set of rules for writing Python code correctly,
+just like grammar and punctuation when writing sentences in English.
+If your syntax is wrong, the program will show an error and cannot run properly.
+
+SYNTAX RULES:
+————————————————————————————————————————————————————————————————————————
+
+1. INDENTATION
+Python uses spaces/indentation to separate blocks of code.
+Such in if, if‑else and if‑elif‑else statement or loop.
+
+Example:
+Age = 18
+✅ if Age >= 18:
+      print("Adult")
+❌ if Age >= 18:
+  print("Adult")
+
+————————————————————————————————————————————————————————————————————————""")
+
+2. CAPITALIZATION
+Python is case‑sensitive. It sees Upper‑case and lower‑case differently
+
+Example:
+Age = 18:
+✅ if Age >= 18:
+      print("Adult")
+❌ if age >= 18:
+      print("Adult")
+
+—————————————————————————————— NOTE ————————————————————————————————————
+— When using if statement or loop, use \":\" for automatic indent.
+— \"Age\" and \"age\" mean different things. 
+Use the correct lower‑case or upper‑case if the same variable is being use.
+========================================================================""")
+
+        while True:
+        back_menu = input("\n✅ Press Y to return to MAIN MENU: ").upper()
+        if back_menu == "Y":
+            break
+        else:
+            print("❌ Please enter only Y to go back to the menu!")
+
+
+    elif choice == "3":
+        print(
+"""======================================================================== 
+3.Python printing output
+
+TYPE:
+1.Printing statement 
+
+The print() function used to display or output data onto the screen. Whenever you want the computer to show text, numbers, or calculation results, you use print().
+
+2.Printing Text (String)
+
+When printing text / words, you must put the text inside single quotation marks ' ' or double quotation marks " ". 
+
+————————————————————————————————————————————————————————————————————————
+Example:
+✅print("Hello Python!")
+❌print(Hello python!)
+
+Output:
+Hello Python!
+————————————————————————————————————————————————————————————————————————
+
+3.Printing Numbers 
+
+When printing numbers, you do NOT use quotation marks because the program will see as text / string, not numbers.
+———————————————————————————————————————————————————————————————————————— 
+Example:
+✅print(25)
+❌print("25") #consider text or string by the program. 
+
+Output:
+25 
+========================================================================""")
+
+        while True:
+        back_menu = input("\n✅ Press Y to return to MAIN MENU: ").upper()
+        if back_menu == "Y":
+            break
+        else:
+            print("❌ Please enter only Y to go back to the menu!")
+
+
+    elif choice == "4":
+        print(
+"""========================================================================
+4.Python Comments
+
+Comments are used to explain codes, but ignored by python completely when running the program. They do not show in the output when program is being run.
+
+Types of Python Comments:
+
+1. Single‑Line Comment (#)
+Use the hashtag symbol # for one‑line comments. 
+—————————————————
