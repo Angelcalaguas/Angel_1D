@@ -24,17 +24,19 @@ while True:
 16. Python iteration & loops
 17. for loop
 18. While loop
-19. Exit Program
 ========================================================================""")
 
-    choice = input("Enter your choice (1‑19): ")
+    choice = input("Enter your choice (1‑18): ")
 
     if choice == "1":
         print(
 """========================================================================
 1. Introduction to Programming
 
-Python is a popular, beginner‑friendly high‑level programming language created by Guido van Rossum in 1991, A dutch software engineer. It lets programmers write instructions (code) that computers can understand to make programs, apps, games, calculators, tutorials, and more.
+Python is a popular, beginner‑friendly high‑level programming language 
+created by Guido van Rossum in 1991, A dutch software engineer. It lets 
+programmers write instructions (code) that computers can understand to make 
+programs, apps, games, calculators, tutorials, and more.
 
 Main Features:
 1. Simple & easy to read
@@ -44,11 +46,11 @@ Main Features:
 ========================================================================""")
 
         while True:
-        back_menu = input("\n✅ Press Y to return to MAIN MENU: ").upper()
-        if back_menu == "Y":
-            break
-        else:
-            print("❌ Please enter only Y to go back to the menu!")
+            back_menu = input("\n✅ Press Y to return to MAIN MENU: ").upper()
+            if back_menu == "Y":
+                break
+            else:
+                print("❌ Please enter only Y to go back to the menu!")
 
 
     elif choice == "2":
@@ -74,7 +76,7 @@ Age = 18
 ❌ if Age >= 18:
   print("Adult")
 
-————————————————————————————————————————————————————————————————————————""")
+————————————————————————————————————————————————————————————————————————
 
 2. CAPITALIZATION
 Python is case‑sensitive. It sees Upper‑case and lower‑case differently
@@ -93,11 +95,11 @@ Use the correct lower‑case or upper‑case if the same variable is being use.
 ========================================================================""")
 
         while True:
-        back_menu = input("\n✅ Press Y to return to MAIN MENU: ").upper()
-        if back_menu == "Y":
-            break
-        else:
-            print("❌ Please enter only Y to go back to the menu!")
+            back_menu = input("\n✅ Press Y to return to MAIN MENU: ").upper()
+            if back_menu == "Y":
+                break
+            else:
+                print("❌ Please enter only Y to go back to the menu!")
 
 
     elif choice == "3":
@@ -108,11 +110,14 @@ Use the correct lower‑case or upper‑case if the same variable is being use.
 TYPE:
 1.Printing statement 
 
-The print() function used to display or output data onto the screen. Whenever you want the computer to show text, numbers, or calculation results, you use print().
+The print() function used to display or output data onto the screen. 
+Whenever you want the computer to show text, numbers, or calculation 
+results, you use print().
 
 2.Printing Text (String)
 
-When printing text / words, you must put the text inside single quotation marks ' ' or double quotation marks " ". 
+When printing text / words, you must put the text inside single quotation 
+marks ' ' or double quotation marks " ". 
 
 ————————————————————————————————————————————————————————————————————————
 Example:
@@ -125,7 +130,8 @@ Hello Python!
 
 3.Printing Numbers 
 
-When printing numbers, you do NOT use quotation marks because the program will see as text / string, not numbers.
+When printing numbers, you do NOT use quotation marks because the program 
+will see as text / string, not numbers.
 ———————————————————————————————————————————————————————————————————————— 
 Example:
 ✅print(25)
@@ -136,24 +142,24 @@ Output:
 ========================================================================""")
 
         while True:
-        back_menu = input("\n✅ Press Y to return to MAIN MENU: ").upper()
-        if back_menu == "Y":
-            break
-        else:
-            print("❌ Please enter only Y to go back to the menu!")
-
+            back_menu = input("\n✅ Press Y to return to MAIN MENU: ").upper()
+            if back_menu == "Y":
+                break
+            else:
+                print("❌ Please enter only Y to go back to the menu!")
 
     elif choice == "4":
         print(
 """========================================================================
-4.Python Comments
+4.Python Comments
 
-Comments are used to explain codes, but ignored by python completely when running the program. They do not show in the output when program is being run.
+Comments are used to explain codes, but ignored by python completely when 
+running the program. They do not show in the output when program is being run.
 
 Types of Python Comments:
 
 1. Single‑Line Comment (#)
-Use the hashtag symbol # for one‑line comments. 
+Use the hashtag symbol # for one‑line comments. 
 ————————————————————————————————————————————————————————————————————————
 Example: 
 # This is a single‑line comment
@@ -162,29 +168,32 @@ print("Hello!")
 
 2. Multi‑Line Comment ("""  """ / '''  ''')
 commonly use them to write long‑form explanations that span several lines
-———————————————————————————————————————————————————————————————————————— Example: 
-"""
+———————————————————————————————————————————————————————————————————————— 
+Example: 
+\"\"\"
 This is a 
 multi‑line 
 comment.
-"""
+\"\"\"
 print("Hello")
 
 ========================================================================""")
 
-While True:
-Back_Menu = input("\nPress Y to return to MAIN MENU: ").upper()
-if Back_Menu == "Y"
-break
-else:
-print("Please Enter only Y to go back to the menu!")
+        while True:
+            back_menu = input("\n✅ Press Y to return to MAIN MENU: ").upper()
+            if back_menu == "Y":
+                break
+            else:
+                print("❌ Please enter only Y to go back to the menu!")
 
-elif choice == "5":
-Print(
+
+    elif choice == "5":
+        print(
 """========================================================================
-5.Python Variables 
+5.Python Variables 
 
-A variable is a storage box that holds data or value. You assign a value using the equal sign =. It could be name, age or letter like a, b, c.
+A variable is a storage box that holds data or value. You assign a value using 
+the equal sign =. It could be name, age or letter like a, b, c.
 
 ————————————————————————————————————————————————————————————————————————
 Example: 
@@ -197,7 +206,8 @@ age & name = variables
 ————————————————————————————————————————————————————————————————————————
 
 Rules:
-Variable must start with letter NOT number and it cannot also contain Space or special characters. Remember variable it’s always case-sensitive.
+Variable must start with letter NOT number and it cannot also contain 
+Space or special characters. Remember variable it’s always case-sensitive.
 
 ————————————————————————————————————————————————————————————————————————
 ✅
@@ -216,19 +226,21 @@ Your.Name
 #Name
 ========================================================================""")
 
-While True:
-Back_Menu = input("\nPress Y to return to MAIN MENU: ").upper()
-if Back_Menu == "Y"
-break
-else:
-print("Please Enter only Y to go back to the menu!")
+        while True:
+            back_menu = input("\n✅ Press Y to return to MAIN MENU: ").upper()
+            if back_menu == "Y":
+                break
+            else:
+                print("❌ Please enter only Y to go back to the menu!")
 
-elif choice == "6":
-Print(
+
+    elif choice == "6":
+        print(
 """========================================================================
 6.Python output variables
 
-Outputting a variable means displaying the value stored inside a variable on the screen using the print() statement.
+Outputting a variable means displaying the value stored inside a variable 
+on the screen using the print() statement.
 
 ————————————————————————————————————————————————————————————————————————
 Example:
@@ -257,7 +269,7 @@ Output:
 I Love CCST
 ————————————————————————————————————————————————————————————————————————
 
- 2. Using the plus sign +
+2. Using the plus sign +
 ———————————————————————————————————————————————————————————————————————— 
 Example:
 x = "I"
@@ -268,21 +280,23 @@ Output:
 ILoveCCST
 ========================================================================""")
 
-While True:
-Back_Menu = input("\nPress Y to return to MAIN MENU: ").upper()
-if Back_Menu == "Y"
-break
-else:
-print("Please Enter only Y to go back to the menu!")
+        while True:
+            back_menu = input("\n✅ Press Y to return to MAIN MENU: ").upper()
+            if back_menu == "Y":
+                break
+            else:
+                print("❌ Please enter only Y to go back to the menu!")
 
-elif choice == "7":
-Print(
+    elif choice == "7":
+        print(
 """========================================================================
-7.Python Data Types
+7.Python Data Types
 
-Data types tell Python what kind of data a variable holds. Python automatically sets the data type when you assign a value, and each type works differently when you run operations.
+Data types tell Python what kind of data a variable holds. Python automatically 
+sets the data type when you assign a value, and each type works differently 
+when you run operations.
 
-Four Data Types:
+Four Data Types:
 
 1. int (Integer) – whole numbers
 
@@ -305,31 +319,35 @@ is_raining = True
 print(bool(is_raining))
 ========================================================================""")
 
-While True:
-Back_Menu = input("\nPress Y to return to MAIN MENU: ").upper()
-if Back_Menu == "Y"
-break
-else:
-print("Please Enter only Y to go back to the menu!")
+        while True:
+            back_menu = input("\n✅ Press Y to return to MAIN MENU: ").upper()
+            if back_menu == "Y":
+                break
+            else:
+                print("❌ Please enter only Y to go back to the menu!")
 
-elif choice == "8":
-Print(
+
+    elif choice == "8":
+        print(
 """========================================================================
-8.Python Arithmetic Operators & Expression
+8.Python Arithmetic Operators & Expression
 
-Arithmetic operators are symbols used to perform mathematical calculations such as addition, subtraction, multiplication, and division inside Python.
+Arithmetic operators are symbols used to perform mathematical calculations 
+such as addition, subtraction, multiplication, and division inside Python.
 
 List of Arithmetic Operators: 
 + Addition — 5 + 3 = 8
 - Subtraction — 5 - 3 = 2
 * Multiplication — 5 * 3 = 15
 / Division (float) — 5 / 3 = 1.6666666666666667
-// Floor Division (round down) — 5 // 3 = 1
+// Floor Division (round down) — 5 // 3 = 1
 % Modulus (remainder) — 5 % 3 = 2 
 ** Exponentiation — 5 ** 3 = 125
 
 ————————————————————————————————————————————————————————————————————————
-Expression is a combination of variables, numbers, and operators that Python evaluates to produce one final value. It is like a math sentence that can be calculated.
+Expression is a combination of variables, numbers, and operators that
+Python evaluates to produce one final value. It is like a math sentence
+that can be calculated.
 
 Example: 
 a = 5
@@ -345,17 +363,17 @@ Parentheses → Exponents → Multiplication & Division → Addition & Subtracti
 Example calculation: b * 2 / 3 * 2 = 6 —> a + 6 /10 + 6 = 16
 ========================================================================""")
 
-While True:
-Back_Menu = input("\nPress Y to return to MAIN MENU: ").upper()
-if Back_Menu == "Y"
-break
-else:
-print("Please Enter only Y to go back to the menu!")
+        while True:
+            back_menu = input("\n✅ Press Y to return to MAIN MENU: ").upper()
+            if back_menu == "Y":
+                break
+            else:
+                print("❌ Please enter only Y to go back to the menu!")
 
-elif choice == "9":
-Print(
+    elif choice == "9":
+        print(
 """========================================================================
-9.Python Input and Output
+9.Python Input and Output
 
 Input means receiving text data that the user types into the program.
 
@@ -363,7 +381,8 @@ Example:
 Name = input("Enter your name: ")
 
 
-Output means making data or values from the program to be displayed on the screen for the user to see using print() and comma , 
+Output means making data or values from the program to be displayed on the 
+screen for the user to see using print() and comma , 
 
 Example: 
 Name = input("Enter your name: ")
@@ -379,23 +398,26 @@ is_student = Answer.lower() === "yes"
 print("Enrolled:", is_student)
 ========================================================================""")
 
-While True:
-Back_Menu = input("\nPress Y to return to MAIN MENU: ").upper()
-if Back_Menu == "Y"
-break
-else:
-print("Please Enter only Y to go back to the menu!")
+        while True:
+            back_menu = input("\n✅ Press Y to return to MAIN MENU: ").upper()
+            if back_menu == "Y":
+                break
+            else:
+                print("❌ Please enter only Y to go back to the menu!")
 
-elif choice == "10":
-Print(
+    elif choice == "10":
+        print(
 """========================================================================
 10.Python conditional statement & Relational operators
 
-A conditional statement lets Python make decisions. It checks whether a condition is True or False. The program will run different blocks of code depending on the result of that condition.
+A conditional statement lets Python make decisions. It checks whether a 
+condition is True or False. The program will run different blocks of code 
+depending on the result of that condition.
 
 Relational Operators
 
-Relational Operators or Comparison Operators are used to compare two values, the results will be either True or False.
+Relational Operators or Comparison Operators are used to compare two values,
+the results will be either True or False.
 
 Type of Operator:
 == Equal to
@@ -406,18 +428,20 @@ Type of Operator:
 <= less than or equal to
 ========================================================================""")
 
-While True:
-Back_Menu = input("\nPress Y to return to MAIN MENU: ").upper()
-if Back_Menu == "Y"
-break
-else:
-print("Please Enter only Y to go back to the menu!")
+        while True:
+            back_menu = input("\n✅ Press Y to return to MAIN MENU: ").upper()
+            if back_menu == "Y":
+                break
+            else:
+                print("❌ Please enter only Y to go back to the menu!")
 
-elif choice == "11":
-Print(
+
+    elif choice == "11":
+        print(
 """========================================================================
 11.if Statement
-Runs the code only when the condition is True. If False, the program skip the indented block entirely.
+Runs the code only when the condition is True. If False, the program skip 
+the indented block entirely.
 
 Example:
 score = 90
@@ -428,19 +452,21 @@ Output:
 You passed!
 ========================================================================""")
 
-While True:
-Back_Menu = input("\nPress Y to return to MAIN MENU: ").upper()
-if Back_Menu == "Y"
-break
-else:
-print("Please Enter only Y to go back to the menu!")
+        while True:
+            back_menu = input("\n✅ Press Y to return to MAIN MENU: ").upper()
+            if back_menu == "Y":
+                break
+            else:
+                print("❌ Please enter only Y to go back to the menu!")
 
-elif choice == "12":
-Print(
+
+    elif choice == "12":
+        print(
 """========================================================================
-12.if-else Statement
+12.if-else Statement
 
-If condition is True it run to if first statement. If it is False it run  to else statement.
+If condition is True it run to if first statement. If it is False it run  
+to else statement.
 
 Example:
 score = 84
@@ -463,19 +489,20 @@ Output:
 You need to study more!
 ========================================================================""")
 
-While True:
-Back_Menu = input("\nPress Y to return to MAIN MENU: ").upper()
-if Back_Menu == "Y"
-break
-else:
-print("Please Enter only Y to go back to the menu!")
+        while True:
+            back_menu = input("\n✅ Press Y to return to MAIN MENU: ").upper()
+            if back_menu == "Y":
+                break
+            else:
+                print("❌ Please enter only Y to go back to the menu!")
 
-elif choice == "13":
-Print(
+    elif choice == "13":
+        print(
 """========================================================================
 13.If-elif-else statement
 
-Used when there are three or more conditions to check. If first condition is True, it run the first independent block.
+Used when there are three or more conditions to check. If first condition 
+is True, it run the first independent block.
 
 Example:
 score = 95
@@ -518,20 +545,21 @@ Output:
 Needs improvement 
 ========================================================================""")
 
-While True:
-Back_Menu = input("\nPress Y to return to MAIN MENU: ").upper()
-if Back_Menu == "Y"
-break
-else:
-print("Please Enter only Y to go back to the menu!")
+        while True:
+            back_menu = input("\n✅ Press Y to return to MAIN MENU: ").upper()
+            if back_menu == "Y":
+                break
+            else:
+                print("❌ Please enter only Y to go back to the menu!")
 
-elif choice == "14":
-Print(
+    elif choice == "14":
+        print(
 """========================================================================
-14.Python Nested Condition
+14.Python Nested Condition
 
-A nested condition means placing another  condition inside the existing condition. Python checks the outer condition first. Only when the outer condition is True will it move inside to check the second condition.
-
+A nested condition means placing another condition inside the existing 
+condition. Python checks the outer condition first. Only when the outer 
+condition is 
 Example:
 
 Gender = "F"
@@ -552,24 +580,27 @@ Output:
 Female Debutant 
 ========================================================================""")
 
-While True:
-Back_Menu = input("\nPress Y to return to MAIN MENU: ").upper()
-if Back_Menu == "Y"
-break
-else:
-print("Please Enter only Y to go back to the menu!")
+        while True:
+            back_menu = input("\n✅ Press Y to return to MAIN MENU: ").upper()
+            if back_menu == "Y":
+                break
+            else:
+                print("❌ Please enter only Y to go back to the menu!")
 
-elif choice == "15":
-Print(
+
+    elif choice == "15":
+        print(
 """========================================================================
-15.Python Logical Operators
+15.Python Logical Operators
 
-Logical operators are used to combine two or more conditions inside if‑statements. They check whether the whole combined condition is True or False.
+Logical operators are used to combine two or more conditions inside 
+if‑statements. They check whether the whole combined condition is True or 
+False.
 
 The Three Logical Operators:
 
 1. and Operator
-Returns True ONLY when BOTH conditions are True
+Returns True ONLY when BOTH conditions are True
 Age = 18
 Has_id = True
 
@@ -583,7 +614,7 @@ Allowed to enter.
 
 2. or Operator
 
-Returns True if AT LEAST ONE condition is True
+Returns True if AT LEAST ONE condition is True
 has_project = True
 has_exam_pass = False
 
@@ -598,7 +629,7 @@ You can pass the subject.
 3. not Operators
 Reverses the condition: 
 
-True → False / False → True
+True → False / False → True
 
 is_absent = False
 
@@ -611,30 +642,33 @@ Output:
 Present in class.
 ========================================================================""")
 
-While True:
-Back_Menu = input("\nPress Y to return to MAIN MENU: ").upper()
-if Back_Menu == "Y"
-break
-else:
-print("Please Enter only Y to go back to the menu!")
+        while True:
+            back_menu = input("\n✅ Press Y to return to MAIN MENU: ").upper()
+            if back_menu == "Y":
+                break
+            else:
+                print("❌ Please enter only Y to go back to the menu!")
 
-elif choice == "16":
-Print(
+
+    elif choice == "16":
+        print(
 """========================================================================
-16.Python Iteration
+16.Python Iteration
 
-Iteration means repeating a block of code over and over again. In Python, you can use loops to do iteration. Instead of writing the same print statement many times, the program do it automatically.
+Iteration means repeating a block of code over and over again. In Python, 
+you can use loops to do iteration. Instead of writing the same print 
+statement many times, the program do it automatically.
 
 ✅:
 for number in range(1,6):
     print("Number:", number)
 
 Output:
-Number: 1
-Number: 2
-Number: 3
-Number: 4
-Number: 5
+Number: 1
+Number: 2
+Number: 3
+Number: 4
+Number: 5
 
 ❌:
 print("Number: 1")
@@ -644,43 +678,47 @@ print("Number: 4")
 print("Number: 5")
 ========================================================================""")
 
-While True:
-Back_Menu = input("\nPress Y to return to MAIN MENU: ").upper()
-if Back_Menu == "Y"
-break
-else:
-print("Please Enter only Y to go back to the menu!")
+        while True:
+            back_menu = input("\n✅ Press Y to return to MAIN MENU: ").upper()
+            if back_menu == "Y":
+                break
+            else:
+                print("❌ Please enter only Y to go back to the menu!")
 
-elif choice == "17":
-Print(
+
+    elif choice == "17":
+        print(
 """========================================================================
-17.for Loop
-The for loop repeats code for a fixed number of times or goes through each item one‑by‑one.
+17.for Loop
+The for loop repeats code for a fixed number of times or goes through each 
+item one‑by‑one.
 
 Example: 
 for number in range(1,6):
     print("Number:", number)
 
 Output:
-Number: 1
-Number: 2
-Number: 3
-Number: 4
-Number: 5
+Number: 1
+Number: 2
+Number: 3
+Number: 4
+Number: 5
 ========================================================================""")
 
-While True:
-Back_Menu = input("\nPress Y to return to MAIN MENU: ").upper()
-if Back_Menu == "Y"
-break
-else:
-print("Please Enter only Y to go back to the menu!")
+        while True:
+            back_menu = input("\n✅ Press Y to return to MAIN MENU: ").upper()
+            if back_menu == "Y":
+                break
+            else:
+                print("❌ Please enter only Y to go back to the menu!")
 
-elif choice == "18":
-Print(
+
+    elif choice == "18":
+        print(
 """========================================================================
- 18.While Loop
-The while loop keeps repeating the code as long as the condition stays True. It stops once the condition becomes False.
+18.While Loop
+The while loop keeps repeating the code as long as the condition stays True. 
+It stops once the condition becomes False.
 
 Example:
 count = 1
@@ -688,10 +726,14 @@ while count <= 5:
     print("Count:", count)
     count = count + 1
 
- Output
-Count: 1
-Count: 2
-Count: 3
-Count: 4
-Count: 5
+Output
+Count: 1
+Count: 2
+Count: 3
+Count: 4
+Count: 5
 ========================================================================""")
+
+    else:
+        print("Invalid! Please choose a lesson(1-18): ")
+        exit()
