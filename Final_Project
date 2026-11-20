@@ -154,4 +154,116 @@ Types of Python Comments:
 
 1. Single‑Line Comment (#)
 Use the hashtag symbol # for one‑line comments. 
-—————————————————
+————————————————————————————————————————————————————————————————————————
+Example: 
+# This is a single‑line comment
+print("Hello!")
+————————————————————————————————————————————————————————————————————————
+
+2. Multi‑Line Comment ("""  """ / '''  ''')
+commonly use them to write long‑form explanations that span several lines
+———————————————————————————————————————————————————————————————————————— Example: 
+"""
+This is a 
+multi‑line 
+comment.
+"""
+print("Hello")
+
+========================================================================""")
+
+While True:
+Back_Menu = input("\nPress Y to return to MAIN MENU: ").upper()
+if Back_Menu == "Y"
+break
+else:
+print("Please Enter only Y to go back to the menu!")
+
+elif choice == "5":
+Print(
+"""========================================================================
+5.Python Variables 
+
+A variable is a storage box that holds data or value. You assign a value using the equal sign =. It could be name, age or letter like a, b, c.
+
+————————————————————————————————————————————————————————————————————————
+Example: 
+age = 15
+name = "angel"
+
+age & name = variables
+15 & "angel" = value
+
+————————————————————————————————————————————————————————————————————————
+
+Rules:
+Variable must start with letter NOT number and it cannot also contain Space or special characters. Remember variable it’s always case-sensitive.
+
+————————————————————————————————————————————————————————————————————————
+✅
+Name
+_Name
+Your_name 
+Name1 
+YourName 
+
+❌
+1stName 
+_Name
+Your Name
+Your.Name
+@Name
+#Name
+========================================================================""")
+
+While True:
+Back_Menu = input("\nPress Y to return to MAIN MENU: ").upper()
+if Back_Menu == "Y"
+break
+else:
+print("Please Enter only Y to go back to the menu!")
+
+elif choice == "6":
+Print(
+"""========================================================================
+6.Python output variables
+
+Outputting a variable means displaying the value stored inside a variable on the screen using the print() statement.
+
+————————————————————————————————————————————————————————————————————————
+Example:
+
+name = "Angel"
+age = 17
+print(name)
+print(age)
+
+Output: 
+Angel
+17
+————————————————————————————————————————————————————————————————————————
+
+Different ways for multiple variables:
+1. Using comma ,
+
+————————————————————————————————————————————————————————————————————————
+Example: 
+
+x = "I"
+y = "Love"
+z = "CCST"
+
+Output:
+I Love CCST
+————————————————————————————————————————————————————————————————————————
+
+ 2. Using the plus sign +
+———————————————————————————————————————————————————————————————————————— 
+Example:
+x = "I"
+y = "Love"
+z = "CCST"
+
+Output:
+ILoveCCST
+========================================================================""")
