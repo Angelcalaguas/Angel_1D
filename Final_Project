@@ -257,3 +257,86 @@ while True:
         print("\nOutput:")
         print("ILoveCCST")
         print(LINE)
+        
+#============================================================                
+        while True:
+            back_menu = input("Press Y to return to MAIN MENU: ").upper().strip()
+            if back_menu == "Y":
+                break
+            else:
+                print(BOLD + PINK + "Please enter only Y to go back to the menu!" + RESET)
+                print(LINE_2)
+#============================================================
+
+    elif choice == "6":
+        print(LINE)
+        print(BOLD + PINK + "Python Data Types" + RESET)
+
+        print("\nData types tell Python what kind of data a variable holds. Python")
+        print("automatically sets the data type when you assign a value, and each type")     
+        print("works differently when you run operations.")
+
+        print(BOLD + "\nFour Data Types:" + RESET)
+
+        print(BOLD + PINK + "1. int (Integer) – whole numbers" + RESET)
+        print("Example: number = 100")
+        print("         print(int(number))")
+
+        print(BOLD + PINK + "\n2. float – numbers with decimal points" + RESET)
+        print("Example: price= 99.99")
+        print("         print(float(price))")
+
+        print(BOLD + PINK + "\n3. str (String / Text) – letters, words, sentences that" + RESET)
+        print(BOLD + PINK + "written inside \"\" / \'\'" + RESET)
+        print("Example: name = \"Angel\" ")
+        print("         print(str(name))")
+
+        print(BOLD + PINK + "\n4. bool (Boolean) – only two values: TRUE or FALSE" + RESET)
+        print("Example: is_raining = True")
+        print("         print(bool(is_raining))")
+        print(LINE)
+        
+#============================================================        
+        while True:
+            back_menu = input("Press Y to return to MAIN MENU: ").upper().strip()
+            if back_menu == "Y":
+                break
+            else:
+                print(BOLD + PINK + "Please enter only Y to go back to the menu!" + RESET)
+                print(LINE_2)     
+#============================================================
+
+    elif choice == "7":
+        print(LINE)
+        print(BOLD + PINK + "Python Arithmetic Operators" + RESET)
+
+        print("\nArithmetic operators are symbols used to perform mathematical") 
+        print("calculations such as addition, subtraction, multiplication, and division inside Python.")
+
+        print(BOLD+ "\nList of Arithmetic Operators: " + RESET) 
+        print("+ Addition                       — 5 + 3  = 8")
+        print("- Subtraction                    — 5 - 3  = 2")
+        print("* Multiplication                 — 5 * 3  = 15")
+        print("/ Division (float)               — 5 / 3  = 1.6666666666666667")
+        print("// Floor Division (round down)   — 5 // 3 = 1")
+        print("% Modulus (remainder)            — 5 % 3  = 2")
+        print("** Exponentiation                — 5 ** 3 = 125")
+
+        print(BOLD + PINK + "\nExpression" + RESET)
+        print("Expression is a combination of variables, numbers, and operators that")
+        print("Python evaluates to produce one final value. It is like a math sentence that can be calculated.")
+        print("Example: ")
+        print("a = 5")
+        print("b = 3")
+ 
+        print("\nresult = a + b * 2  #whole line's right‑hand side is an expression\n")
+
+        print(LINE_2)
+        print(BOLD + "NOTE".center(70) + RESET)
+        print(LINE_2)
+        print("Python follows the same math rules called PEMDAS:")
+        print(BOLD + PINK + "Parentheses → Exponents → Multiplication & Division → Addition")
+        print(BOLD + PINK + "& Subtraction." + RESET)
+
+        print("Example calculation: 3 * 2 = 6 —> 5 + 6 = 11")
+        print(LINE)
