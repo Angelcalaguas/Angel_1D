@@ -118,18 +118,19 @@ while True:
         print("❌ print(Hello python!)")
         print("\nOutput:")
         print("Hello Python!\n")
-        print(LINE_2)
         
         while True:
-            practice = input("\nTry typing the program from the example to proceed: ").strip()
+            print(LINE_2)
+            practice = input("Try typing the program from the example to proceed: ").strip()
             if practice == 'print("Hello Python")':
+                print(LINE_2)
                 break
             elif practice == 'print("hello python")':
+                print(LINE_2)
                 break
             else:
-                print("Error! Try again.")
+                print(BOLD + PINK + "Error! Try again." + RESET)
         
-        print(LINE_2)
         print(BOLD + PINK + "\n3.Printing Numbers" + RESET)
         print("When printing numbers, you do NOT use quotation marks because the")
         print("program will see as text / string, not numbers.")
@@ -138,7 +139,7 @@ while True:
         print("✅ print(25)")
         print("❌ print(\"25\") #sees as text or string by the program")
         print(LINE)
-
+        
 #============================================================
         while True:
             back_menu = input("Press Y to return to MAIN MENU: ").upper().strip()
@@ -173,5 +174,3 @@ while True:
         print("\"\"\" ")
         print("print(\"Hello\")")
         print(LINE)
-
-
