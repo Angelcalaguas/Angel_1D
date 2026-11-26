@@ -50,7 +50,7 @@ while True:
             if back_menu == "Y":
                 break
             else:
-                print(BOLD + PINK + "Please enter only Y to go back to the menu!" + RESET)
+                print(BOLD + PINK + "INVALID! Please enter only Y to go back to the menu!" + RESET)
                 print(LINE_2)
 #============================================================
 
@@ -98,7 +98,7 @@ while True:
             if back_menu == "Y":
                 break
             else:
-                print(BOLD + PINK + "Please enter only Y to go back to the menu!" + RESET)
+                print(BOLD + PINK + "INVALID! Please enter only Y to go back to the menu!" + RESET)
                 print(LINE_2)
 #============================================================
 
@@ -148,7 +148,7 @@ while True:
             if back_menu == "Y":
                 break
             else:
-                print(BOLD + PINK + "Please enter only Y to go back to the menu!" + RESET)
+                print(BOLD + PINK + "INVALID! Please enter only Y to go back to the menu!" + RESET)
                 print(LINE_2)
 #============================================================
 
@@ -184,7 +184,7 @@ while True:
             if back_menu == "Y":
                 break
             else:
-                print(BOLD + PINK + "Please enter only Y to go back to the menu!" + RESET)
+                print(BOLD + PINK + "INVALID! Please enter only Y to go back to the menu!" + RESET)
                 print(LINE_2)
 #============================================================
 
@@ -216,7 +216,7 @@ while True:
             if back_menu == "Y":
                 break
             else:
-                print(BOLD + PINK + "Please enter only Y to proceed!" + RESET)
+                print(BOLD + PINK + "INVALID! Please enter only Y to proceed!" + RESET)
                 print(LINE_2)
 #============================================================
 
@@ -264,7 +264,7 @@ while True:
             if back_menu == "Y":
                 break
             else:
-                print(BOLD + PINK + "Please enter only Y to go back to the menu!" + RESET)
+                print(BOLD + PINK + "INVALID! Please enter only Y to go back to the menu!" + RESET)
                 print(LINE_2)
 #============================================================
 
@@ -302,7 +302,7 @@ while True:
             if back_menu == "Y":
                 break
             else:
-                print(BOLD + PINK + "Please enter only Y to go back to the menu!" + RESET)
+                print(BOLD + PINK + "INVALID! Please enter only Y to go back to the menu!" + RESET)
                 print(LINE_2)     
 #============================================================
 
@@ -347,7 +347,7 @@ while True:
             if back_menu == "Y":
                 break
             else:
-                print(BOLD + PINK + "Please enter only Y to go back to the menu!" + RESET)
+                print(BOLD + PINK + "INVALID! Please enter only Y to go back to the menu!" + RESET)
                 print(LINE_2)     
 #============================================================
 
@@ -382,7 +382,7 @@ while True:
             if back_menu == "Y":
                 break
             else:
-                print(BOLD + PINK + "Please enter only Y to go back to the menu!" + RESET)
+                print(BOLD + PINK + "INVALID! Please enter only Y to go back to the menu!" + RESET)
                 print(LINE_2)     
 #============================================================
 
@@ -391,9 +391,9 @@ while True:
         print(BOLD + PINK + "Python conditional statement" + RESET)
 
         print (BOLD + "\nCondition" + RESET)
-        print("A conditional statement lets Python make decisions. It checks whether a condition")
-        print("is True or False. The program will run different blocks of code depending on") 
-        print("the result of that condition.")
+        print("A conditional statement lets Python make decisions. It checks whether a")
+        print("condition is True or False. The program will run different blocks of code") 
+        print("depending on the result of that condition.")
 
         print(BOLD + "\nRelational Operators" + RESET)
 
@@ -415,7 +415,7 @@ while True:
             if back_menu == "Y":
                 break
             else:
-                print(BOLD + PINK + "Please enter only Y to proceed!" + RESET)
+                print(BOLD + PINK + "INVALID! Please enter only Y to proceed!" + RESET)
                 print(LINE_2)
 #============================================================
 
@@ -439,7 +439,7 @@ while True:
             if back_menu == "Y":
                 break
             else:
-                print(BOLD + PINK + "Please enter only Y to proceed!" + RESET)
+                print(BOLD + PINK + "INVALID! Please enter only Y to proceed!" + RESET)
                 print(LINE_2)
 #============================================================
 
@@ -475,7 +475,7 @@ while True:
             if back_menu == "Y":
                 break
             else:
-                print(BOLD + PINK + "Please enter only Y to proceed!" + RESET)
+                print(BOLD + PINK + "INVALID! Please enter only Y to proceed!" + RESET)
                 print(LINE_2)
 #============================================================
 
@@ -521,4 +521,39 @@ while True:
 
         print("\nOutput:")
         print("Needs improvement ")
+        print(LINE)
+        
+#============================================================
+        while True:
+            back_menu = input("Press Y to return to Proceed to the next lesson: ").upper().strip()
+            if back_menu == "Y":
+                break
+            else:
+                print(BOLD + PINK + "INVALID! Please enter only Y to proceed!" + RESET)
+                print(LINE_2)
+#============================================================
+
+        print(LINE)
+        print(BOLD + PINK + "Python Nested Condition" + RESET)
+        print("\nNnested condition means placing another condition inside the existing") 
+        print("Condition. Python checks the outer condition first. Only when the outer")
+        print("condition is true, will it move inside to check the second condition.")
+
+        print(BOLD + "\nExample:" + RESET)
+        print("Gender = \"F\"")
+        print("Age = 18")
+
+        print("\nif Gender == \"F\"")
+        print("    if Age >= 18:")
+        print("        print(\"Female Debutant\")")
+        print("    else:")
+        print("        print(\"Female, but not Debutant.\")")
+        print("else:")
+        print("    if Age >= 21:")
+        print("        print(\"Male Debutant\")")
+        print("    else:")
+        print("        print(\"Male, but not Debutant.\")")
+
+        print("\nOutput: ")
+        print("Female Debutant ")
         print(LINE)
