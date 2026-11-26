@@ -50,7 +50,8 @@ while True:
             if back_menu == "Y":
                 break
             else:
-                print("Please enter only Y to go back to the menu!")
+                print(BOLD + PINK + "Please enter only Y to go back to the menu!" + RESET)
+                print(LINE_2)
 #============================================================
 
     elif choice == "2":
@@ -97,7 +98,8 @@ while True:
             if back_menu == "Y":
                 break
             else:
-                print("Please enter only Y to go back to the menu!")
+                print(BOLD + PINK + "Please enter only Y to go back to the menu!" + RESET)
+                print(LINE_2)
 #============================================================
 
     elif choice == "3":
@@ -146,7 +148,8 @@ while True:
             if back_menu == "Y":
                 break
             else:
-                print("Please enter only Y to go back to the menu!")
+                print(BOLD + PINK + "Please enter only Y to go back to the menu!" + RESET)
+                print(LINE_2)
 #============================================================
 
     elif choice == "4":
@@ -173,4 +176,84 @@ while True:
         print("comment.")
         print("\"\"\" ")
         print("print(\"Hello\")")
+        print(LINE)
+        
+#============================================================
+        while True:
+            back_menu = input("Press Y to return to MAIN MENU: ").upper().strip()
+            if back_menu == "Y":
+                break
+            else:
+                print(BOLD + PINK + "Please enter only Y to go back to the menu!" + RESET)
+                print(LINE_2)
+#============================================================
+
+    elif choice == "5":
+        print(LINE)
+        print(BOLD + PINK + "Python Variables" + RESET)
+        print("\nA variable is a storage box that holds data or value. You assign a value")
+        print("using the equal sign =. It could be name, age or letter like a, b, c.")
+
+        print("\nExample: ")
+        print("age = 15")
+        print("name = \"angel\"")
+
+        print("\nage & name = variables")
+        print("15 & \"angel\" = value")
+        
+        
+        print(BOLD + "\nRules:" + RESET)
+        print("Variable must start with letter NOT number and it cannot also contain")
+        print("Space or special characters. Remember variable it’s always")
+        print("case-sensitive.")
+        print("\n✅: Name, _Name, Your_name, Name1, YourName")
+        print("❌: 1stName, _Name, Your Name, Your.Name, @Name")
+        print(LINE)
+
+#============================================================
+        while True:
+            back_menu = input("Press Y to return to Proceed to the next lesson: ").upper().strip()
+            if back_menu == "Y":
+                break
+            else:
+                print(BOLD + PINK + "Please enter only Y to proceed!" + RESET)
+                print(LINE_2)
+#============================================================
+
+        print(LINE)
+        print(BOLD + PINK + "Python Output Variables" + RESET)
+
+        print("\nOutputting a variable means displaying the value stored inside a")
+        print("variable on the screen using the print() statement.")
+
+        print("\nExample:")
+        print("name = \"Angel\"")
+        print("age = 17")
+        print("print(name)")
+        print("print(age)")
+
+        print("\nOutput: ")
+        print("Angel")
+        print("17")
+
+        print(BOLD + "\nDifferent ways for multiple variables:" + RESET)
+        print(BOLD + PINK + "1. Using comma , " + RESET)
+
+        print("Example: ")
+        print("x = \"I\"")
+        print("y = \"Love\"")
+        print("z = \"CCST\"")
+        print("print(x, y, z)")
+        print("\nOutput:")
+        print("I Love CCST")
+
+        print(BOLD + PINK + "\n2. Using the plus sign +" + RESET)
+
+        print("Example:")
+        print("x = \"I\"")
+        print("y = \"Love\"")
+        print("z = \"CCST\"")
+
+        print("\nOutput:")
+        print("ILoveCCST")
         print(LINE)
