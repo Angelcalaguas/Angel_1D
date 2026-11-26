@@ -557,3 +557,66 @@ while True:
         print("\nOutput: ")
         print("Female Debutant ")
         print(LINE)
+
+#============================================================
+        while True:
+            back_menu = input("Press Y to return to MAIN MENU: ").upper().strip()
+            if back_menu == "Y":
+                break
+            else:
+                print(BOLD + PINK + "INVALID! Please enter only Y to go back to the menu!" + RESET)
+                print(LINE_2)     
+#============================================================
+
+    elif choice == "10":
+        print(LINE)
+        print(BOLD + PINK + "Python Logical Operators" + RESET)
+        print("\nLogical operators are used to combine two or more conditions inside")
+        print("if‑statements.They check whether the whole combined condition is True or False.")
+
+        print(BOLD + "\nThe Three Logical Operators:" + RESET)
+        print(LINE_2)
+        print(BOLD + PINK + "and " + RESET + BOLD + "Operator: " + RESET)
+        print("Returns True ONLY when BOTH conditions are True")
+        print("\nExample:")
+        print("Age = 18")
+        print("Has_id = True")
+
+        print("\nif Age >= 18 and Has_id:")
+        print("    print(\"Allowed to enter.\")")
+        print("else:")
+        print("    print(\"Not allowed to enter.\")")
+
+        print("\nOutput:")
+        print("Allowed to enter.\n")
+        
+        print(LINE_2)
+        print(BOLD + PINK + "or " + RESET + BOLD + "Operator: " + RESET)
+        print("Returns True if AT LEAST ONE condition is True")
+        print("\nExample: ")
+        print("has_project = True")
+        print("has_exam_pass = False")
+
+        print("\nif has_project == True or has_exam_pass == True:")
+        print("    print(\"You can pass the subject.\")")
+        print("else:")
+        print("    print(\"Failed requirements.\")")
+
+        print("\nOutput:")
+        print("You can pass the subject.\n")
+        
+        print(LINE_2)
+        print(BOLD + PINK + "not " + RESET + BOLD + "Operator: " + RESET)
+        print("Reverses the condition:  True –> False / False –> True.")
+        print("\nExample: ")
+        print("is_absent = False")
+
+        print("\nif not is_absent:")
+        print("    print(\"Present in class.\")")
+        print("else: ")
+        print("    print(\"Absent in class.\")")
+
+        print("\nOutput:")
+        print("Present in class.")
+        print(LINE)
+
