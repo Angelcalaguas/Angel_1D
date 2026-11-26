@@ -88,8 +88,8 @@ while True:
         
 #======================================================================
         while True:
-            back_menu = input("Press Y to learn about Printing Output: ").upper().strip()
-            if back_menu == "Y":
+            proceed = input("Press Y to learn about Printing Output: ").upper().strip()
+            if proceed == "Y":
                 break
             else:
                 print(BOLD + PINK + "INVALID! Please enter only Y to proceed!" + RESET)
@@ -137,8 +137,8 @@ while True:
         
 #======================================================================
         while True:
-            back_menu = input("Press Y to learn about Python Comments: ").upper().strip()
-            if back_menu == "Y":
+            proceed = input("Press Y to learn about Python Comments: ").upper().strip()
+            if proceed == "Y":
                 break
             else:
                 print(BOLD + PINK + "INVALID! Please enter only Y to proceed!" + RESET)
@@ -204,8 +204,8 @@ while True:
 
 #======================================================================
         while True:
-            back_menu = input("Press Y to learn about Output Variables: ").upper().strip()
-            if back_menu == "Y":
+            proceed = input("Press Y to learn about Output Variables: ").upper().strip()
+            if proceed == "Y":
                 break
             else:
                 print(BOLD + PINK + "INVALID! Please enter only Y to proceed!" + RESET)
@@ -403,8 +403,8 @@ while True:
 
 #======================================================================
         while True:
-            back_menu = input("Press Y to learn about if statement: ").upper().strip()
-            if back_menu == "Y":
+            proceed = input("Press Y to learn about if statement: ").upper().strip()
+            if proceed == "Y":
                 break
             else:
                 print(BOLD + PINK + "INVALID! Please enter only Y to proceed!" + RESET)
@@ -427,8 +427,8 @@ while True:
 
 #======================================================================
         while True:
-            back_menu = input("Press Y to learn about if-else statement: ").upper().strip()
-            if back_menu == "Y":
+            proceed = input("Press Y to learn about if-else statement: ").upper().strip()
+            if proceed == "Y":
                 break
             else:
                 print(BOLD + PINK + "INVALID! Please enter only Y to proceed!" + RESET)
@@ -463,8 +463,8 @@ while True:
 
 #======================================================================
         while True:
-            back_menu = input("Press Y to learn about If-elif-else statement: ").upper().strip()
-            if back_menu == "Y":
+            proceed = input("Press Y to learn about If-elif-else statement: ").upper().strip()
+            if proceed == "Y":
                 break
             else:
                 print(BOLD + PINK + "INVALID! Please enter only Y to proceed!" + RESET)
@@ -516,8 +516,8 @@ while True:
         
 #======================================================================
         while True:
-            back_menu = input("Press Y to learn about Python Nested Condition: ").upper().strip()
-            if back_menu == "Y":
+            proceed = input("Press Y to learn about Python Nested Condition: ").upper().strip()
+            if proceed == "Y":
                 break
             else:
                 print(BOLD + PINK + "INVALID! Please enter only Y to proceed!" + RESET)
@@ -649,8 +649,8 @@ while True:
 
 #======================================================================
         while True:
-            back_menu = input("Press Y to learn for and while loop: ").upper().strip()
-            if back_menu == "Y":
+            proceed = input("Press Y to learn for and while loop: ").upper().strip()
+            if proceed == "Y":
                 break
             else:
                 print(BOLD + PINK + "INVALID! Please enter only Y to proceed!" + RESET)
