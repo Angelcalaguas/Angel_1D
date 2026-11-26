@@ -12,20 +12,18 @@ while True:
     print(LINE)
     print(BOLD + PINK + "TUTORIAL MENU:".center(70)+ RESET)
     print("""
-1.  Introduction To Programming
-2.  Python Syntax
-3.  Python Printing Output
-4.  Python Comments 
-5.  Python Variables & Output Variables
-6.  Python Data Types
-7.  Python Arithmetic Operators
-8.  Python Basic Input & Output
-9.  Python Conditional StatemeNT
-10. Python Logical Operator
-11. Python Iteration & Loops\n""")
+1. Introduction To Programming
+2. Python Syntax
+3. Python Variables & Output Variables
+4. Python Data Types
+5. Python Arithmetic Operators
+6. Python Basic Input & Output
+7. Python Conditional Statement
+8. Python Logical Operator
+9. Python Iteration & Loops\n""")
     print(LINE)
     
-#============================================================
+#======================================================================
     choice = input("Enter your choice (1–11): ")
     
     if choice == "1":
@@ -43,7 +41,7 @@ while True:
         print("4. Huge Community")
         print(LINE)
     
-#============================================================
+#======================================================================
         while True:
             back_menu = input("Press Y to return to MAIN MENU: ").upper().strip()
             if back_menu == "Y":
@@ -51,7 +49,7 @@ while True:
             else:
                 print(BOLD + PINK + "INVALID! Please enter only Y to go back to the menu!" + RESET)
                 print(LINE_2)
-#============================================================
+#======================================================================
 
     elif choice == "2":
         print(LINE)
@@ -60,9 +58,7 @@ while True:
         print("just like grammar and punctuation when writing sentences in English. If")
         print("your syntax is wrong, the program will show an error and cannot run properly.")
         
-        print(BOLD + "\nSyntax Rules:" + RESET)
-        print(LINE_2)
-        print(BOLD + PINK + "Indentation" + RESET)
+        print(BOLD + PINK + "\nIndentation" + RESET)
         print("Python uses spaces/indentation to separate blocks of code. Such as")
         print("if, if‑else and if‑elif‑else statement or loop.")
 
@@ -72,9 +68,8 @@ while True:
 
         print("\n❌ if Age >= 18: ")
         print("  (\"Adult\") ")
-        print(LINE_2)
 
-        print(BOLD + PINK + "Capitalization" + RESET)
+        print(BOLD + PINK + "\nCapitalization" + RESET)
         print("Python is case‑sensitive. It sees Upper‑case and lower‑case differently.")
         print("\nExample: Age = 18")
         print("✅ if Age >= 18: ")
@@ -91,17 +86,16 @@ while True:
         print("or upper‑case if the same variable is being use.")
         print(LINE)
         
-#============================================================
+#======================================================================
         while True:
-            back_menu = input("Press Y to return to MAIN MENU: ").upper().strip()
+            back_menu = input("Press Y to learn about Printing Output: ").upper().strip()
             if back_menu == "Y":
                 break
             else:
-                print(BOLD + PINK + "INVALID! Please enter only Y to go back to the menu!" + RESET)
+                print(BOLD + PINK + "INVALID! Please enter only Y to proceed!" + RESET)
                 print(LINE_2)
-#============================================================
+#======================================================================
 
-    elif choice == "3":
         print(LINE)
         print(BOLD + PINK + "Python Printing Output" + RESET)
         print(BOLD + "\nType: " + RESET)
@@ -141,17 +135,16 @@ while True:
         print("❌ print(\"25\") #sees as text or string by the program")
         print(LINE)
         
-#============================================================
+#======================================================================
         while True:
-            back_menu = input("Press Y to return to MAIN MENU: ").upper().strip()
+            back_menu = input("Press Y to learn about Python Comments: ").upper().strip()
             if back_menu == "Y":
                 break
             else:
-                print(BOLD + PINK + "INVALID! Please enter only Y to go back to the menu!" + RESET)
+                print(BOLD + PINK + "INVALID! Please enter only Y to proceed!" + RESET)
                 print(LINE_2)
-#============================================================
+#======================================================================
 
-    elif choice == "4":
         print(LINE)
         print(BOLD + PINK + "Python Comments" + RESET)
         print("\nComments are used to explain codes, but ignored by python completely")
@@ -177,7 +170,7 @@ while True:
         print("print(\"Hello\")")
         print(LINE)
         
-#============================================================
+#======================================================================
         while True:
             back_menu = input("Press Y to return to MAIN MENU: ").upper().strip()
             if back_menu == "Y":
@@ -185,9 +178,9 @@ while True:
             else:
                 print(BOLD + PINK + "INVALID! Please enter only Y to go back to the menu!" + RESET)
                 print(LINE_2)
-#============================================================
+#======================================================================
 
-    elif choice == "5":
+    elif choice == "3":
         print(LINE)
         print(BOLD + PINK + "Python Variables" + RESET)
         print("\nA variable is a storage box that holds data or value. You assign a value")
@@ -209,15 +202,15 @@ while True:
         print("❌: 1stName, _Name, Your Name, Your.Name, @Name")
         print(LINE)
 
-#============================================================
+#======================================================================
         while True:
-            back_menu = input("Press Y to Proceed to the next lesson: ").upper().strip()
+            back_menu = input("Press Y to learn about Output Variables: ").upper().strip()
             if back_menu == "Y":
                 break
             else:
                 print(BOLD + PINK + "INVALID! Please enter only Y to proceed!" + RESET)
                 print(LINE_2)
-#============================================================
+#======================================================================
 
         print(LINE)
         print(BOLD + PINK + "Python Output Variables" + RESET)
@@ -257,7 +250,7 @@ while True:
         print("ILoveCCST")
         print(LINE)
         
-#============================================================                
+#======================================================================
         while True:
             back_menu = input("Press Y to return to MAIN MENU: ").upper().strip()
             if back_menu == "Y":
@@ -265,9 +258,9 @@ while True:
             else:
                 print(BOLD + PINK + "INVALID! Please enter only Y to go back to the menu!" + RESET)
                 print(LINE_2)
-#============================================================
+#======================================================================
 
-    elif choice == "6":
+    elif choice == "4":
         print(LINE)
         print(BOLD + PINK + "Python Data Types" + RESET)
 
@@ -295,7 +288,7 @@ while True:
         print("         print(bool(is_raining))")
         print(LINE)
         
-#============================================================        
+#======================================================================
         while True:
             back_menu = input("Press Y to return to MAIN MENU: ").upper().strip()
             if back_menu == "Y":
@@ -303,9 +296,9 @@ while True:
             else:
                 print(BOLD + PINK + "INVALID! Please enter only Y to go back to the menu!" + RESET)
                 print(LINE_2)     
-#============================================================
+#======================================================================
 
-    elif choice == "7":
+    elif choice == "5":
         print(LINE)
         print(BOLD + PINK + "Python Arithmetic Operators" + RESET)
 
@@ -340,7 +333,7 @@ while True:
         print("Example calculation: 3 * 2 = 6 —> 5 + 6 = 11")
         print(LINE)
 
-#============================================================        
+#======================================================================
         while True:
             back_menu = input("Press Y to return to MAIN MENU: ").upper().strip()
             if back_menu == "Y":
@@ -348,9 +341,9 @@ while True:
             else:
                 print(BOLD + PINK + "INVALID! Please enter only Y to go back to the menu!" + RESET)
                 print(LINE_2)     
-#============================================================
+#======================================================================
 
-    elif choice == "8":
+    elif choice == "6":
         print(LINE)
         print(BOLD + PINK + "Python Input and Output" + RESET)
         
@@ -375,7 +368,7 @@ while True:
         print("print(\"Enrolled:\", is_student)")
         print(LINE)
 
-#============================================================        
+#======================================================================
         while True:
             back_menu = input("Press Y to return to MAIN MENU: ").upper().strip()
             if back_menu == "Y":
@@ -383,9 +376,9 @@ while True:
             else:
                 print(BOLD + PINK + "INVALID! Please enter only Y to go back to the menu!" + RESET)
                 print(LINE_2)     
-#============================================================
+#======================================================================
 
-    elif choice == "9":
+    elif choice == "7":
         print(LINE)
         print(BOLD + PINK + "Python conditional statement" + RESET)
 
@@ -408,15 +401,15 @@ while True:
         print("<= less than or equal to")
         print(LINE)
 
-#============================================================
+#======================================================================
         while True:
-            back_menu = input("Press Y to Proceed to the next lesson: ").upper().strip()
+            back_menu = input("Press Y to learn about if statement: ").upper().strip()
             if back_menu == "Y":
                 break
             else:
                 print(BOLD + PINK + "INVALID! Please enter only Y to proceed!" + RESET)
                 print(LINE_2)
-#============================================================
+#======================================================================
 
         print(LINE)
         print(BOLD + PINK + "if Statement" + RESET)
@@ -432,15 +425,15 @@ while True:
         print("You passed!")
         print(LINE)
 
-#============================================================
+#======================================================================
         while True:
-            back_menu = input("Press Y to Proceed to the next lesson: ").upper().strip()
+            back_menu = input("Press Y to learn about if-else statement: ").upper().strip()
             if back_menu == "Y":
                 break
             else:
                 print(BOLD + PINK + "INVALID! Please enter only Y to proceed!" + RESET)
                 print(LINE_2)
-#============================================================
+#======================================================================
 
         print(LINE)
         print(BOLD + PINK + "if-else Statement" + RESET)
@@ -468,16 +461,15 @@ while True:
         print("You need to study more!")
         print(LINE)
 
-#============================================================
+#======================================================================
         while True:
-            back_menu = input("Press Y to Proceed to the next lesson: ").upper().strip()
+            back_menu = input("Press Y to learn about If-elif-else statement: ").upper().strip()
             if back_menu == "Y":
                 break
             else:
                 print(BOLD + PINK + "INVALID! Please enter only Y to proceed!" + RESET)
                 print(LINE_2)
-#============================================================
-      
+#======================================================================
         print(LINE)
         print(BOLD + PINK + "If-elif-else statement" + RESET)
         print("Used when there are three or more conditions to check. If first")
@@ -522,15 +514,15 @@ while True:
         print("Needs improvement ")
         print(LINE)
         
-#============================================================
+#======================================================================
         while True:
-            back_menu = input("Press Y to Proceed to the next lesson: ").upper().strip()
+            back_menu = input("Press Y to learn about Python Nested Condition: ").upper().strip()
             if back_menu == "Y":
                 break
             else:
                 print(BOLD + PINK + "INVALID! Please enter only Y to proceed!" + RESET)
                 print(LINE_2)
-#============================================================
+#======================================================================
 
         print(LINE)
         print(BOLD + PINK + "Python Nested Condition" + RESET)
@@ -557,7 +549,7 @@ while True:
         print("Female Debutant ")
         print(LINE)
 
-#============================================================
+#======================================================================
         while True:
             back_menu = input("Press Y to return to MAIN MENU: ").upper().strip()
             if back_menu == "Y":
@@ -565,9 +557,9 @@ while True:
             else:
                 print(BOLD + PINK + "INVALID! Please enter only Y to go back to the menu!" + RESET)
                 print(LINE_2)     
-#============================================================
+#======================================================================
 
-    elif choice == "10":
+    elif choice == "8":
         print(LINE)
         print(BOLD + PINK + "Python Logical Operators" + RESET)
         print("\nLogical operators are used to combine two or more conditions inside")
@@ -619,7 +611,7 @@ while True:
         print("Present in class.")
         print(LINE)
         
-#============================================================
+#======================================================================
         while True:
             back_menu = input("Press Y to return to MAIN MENU: ").upper().strip()
             if back_menu == "Y":
@@ -627,9 +619,9 @@ while True:
             else:
                 print(BOLD + PINK + "INVALID! Please enter only Y to go back to the menu!" + RESET)
                 print(LINE_2)     
-#============================================================
+#======================================================================
 
-    elif choice == "11":
+    elif choice == "9":
         print(LINE)
         print(BOLD + PINK + "Python Iteration & loops" + RESET)
 
@@ -655,16 +647,16 @@ while True:
         print("Number: 5")
         print(LINE)
 
-#============================================================
+#======================================================================
         while True:
-            back_menu = input("Press Y to Proceed to the next lesson: ").upper().strip()
+            back_menu = input("Press Y to learn for and while loop: ").upper().strip()
             if back_menu == "Y":
                 break
             else:
                 print(BOLD + PINK + "INVALID! Please enter only Y to proceed!" + RESET)
                 print(LINE_2)
         
-#============================================================
+#======================================================================
 
         print(LINE)
         print(BOLD + PINK + "for Loop" + RESET)
@@ -684,8 +676,7 @@ while True:
 
         print(BOLD + PINK + "while Loop" + RESET)
         print("\nThe while loop keeps repeating the code as long as the condition is stay")
-        print(BOLD + PINK + "True. " + RESET + "It stops once the condition becomes")
-        print(BOLD + PINK + "False." +  RESET)
+        print(BOLD + PINK + "True. " + RESET + "It stops once the condition becomes " + BOLD + PINK + "False." +  RESET)
         
         print("\nExample:")
         print("count = 1")
@@ -701,8 +692,8 @@ while True:
         print("Count: 5")
         print(LINE)
         
-#============================================================
-       
+#======================================================================
+
         while True:
             finish = input("You've completed all lessons! Press Y to exit program: ").upper().strip()
             if finish == "Y":
@@ -713,6 +704,8 @@ while True:
             else:
                 print(BOLD + PINK + "Returning to MAIN MENU instead..." + RESET)
                 break 
+
+    
     else:
         print(BOLD + PINK + "INVALID! Please enter a number 0-11 only." + RESET)
         print(LINE)
