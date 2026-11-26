@@ -245,7 +245,7 @@ while True:
         print("x = \"I\"")
         print("y = \"Love\"")
         print("z = \"CCST\"")
-
+        print("print(x + y + z)")
         print("\nOutput:")
         print("ILoveCCST")
         print(LINE)
