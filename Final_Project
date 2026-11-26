@@ -340,3 +340,38 @@ while True:
 
         print("Example calculation: 3 * 2 = 6 —> 5 + 6 = 11")
         print(LINE)
+
+#============================================================        
+        while True:
+            back_menu = input("Press Y to return to MAIN MENU: ").upper().strip()
+            if back_menu == "Y":
+                break
+            else:
+                print(BOLD + PINK + "Please enter only Y to go back to the menu!" + RESET)
+                print(LINE_2)     
+#============================================================
+
+    elif choice == "8":
+        print(LINE)
+        print(BOLD + PINK + "Python Input and Output" + RESET)
+        
+        print(BOLD + "\nINPUT" + RESET)
+        print("Input means receiving text data that the user types into the program.")
+        print("\nExample: ")
+        print("Name = input(\"Enter your name: \")")
+        
+        print(BOLD + "\nOUTPUT" + RESET)
+        print("Output means making data or values from the program to be displayed on")
+        print("the screen for the user to see using print() and comma , ")
+        print("\nExample: ")
+        print("Name = input(\"Enter your name: \")")
+        print("print(\"My name is\", Name\")")
+
+        print(BOLD + "\nUsing data types: " + RESET)
+        print("Name       = input(\"Enter your name: \")")
+        print("Age        = int(input(\"Enter your age: \"))")
+        print("Grade      = float(input(\"Enter overall grade: \"))")
+        print("Answer     = input(\"A ccst student? (Yes/No): \")")
+        print("is_student = Answer.lower() === \"yes\"")
+        print("print(\"Enrolled:\", is_student)")
+        print(LINE)
