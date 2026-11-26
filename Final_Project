@@ -375,3 +375,150 @@ while True:
         print("is_student = Answer.lower() === \"yes\"")
         print("print(\"Enrolled:\", is_student)")
         print(LINE)
+
+#============================================================        
+        while True:
+            back_menu = input("Press Y to return to MAIN MENU: ").upper().strip()
+            if back_menu == "Y":
+                break
+            else:
+                print(BOLD + PINK + "Please enter only Y to go back to the menu!" + RESET)
+                print(LINE_2)     
+#============================================================
+
+    elif choice == "9":
+        print(LINE)
+        print(BOLD + PINK + "Python conditional statement" + RESET)
+
+        print (BOLD + "\nCondition" + RESET)
+        print("A conditional statement lets Python make decisions. It checks whether a condition")
+        print("is True or False. The program will run different blocks of code depending on") 
+        print("the result of that condition.")
+
+        print(BOLD + "\nRelational Operators" + RESET)
+
+        print("Relational Operators or Comparison Operators are used to compare two values,") 
+        print("the results will be either True or False.")
+ 
+        print(BOLD + "\nType of Operator: " + RESET)
+        print("== Equal to")
+        print("!= Not equal to")
+        print("> Greater than")
+        print("< Less than") 
+        print(">= Greater than or equal to")
+        print("<= less than or equal to")
+        print(LINE)
+
+#============================================================
+        while True:
+            back_menu = input("Press Y to return to Proceed to the next lesson: ").upper().strip()
+            if back_menu == "Y":
+                break
+            else:
+                print(BOLD + PINK + "Please enter only Y to proceed!" + RESET)
+                print(LINE_2)
+#============================================================
+
+        print(LINE)
+        print(BOLD + PINK + "if Statement" + RESET)
+        print("Runs the code only when the condition is True. If False, the program")
+        print("skip the indented block entirely.")
+
+        print(BOLD + "\nExample:" + RESET)
+        print("score = 90")
+        print("if score >= 80:")
+        print("    print(\"You passed!\")")
+
+        print("\nOutput:")
+        print("You passed!")
+        print(LINE)
+
+#============================================================
+        while True:
+            back_menu = input("Press Y to return to Proceed to the next lesson: ").upper().strip()
+            if back_menu == "Y":
+                break
+            else:
+                print(BOLD + PINK + "Please enter only Y to proceed!" + RESET)
+                print(LINE_2)
+#============================================================
+
+        print(LINE)
+        print(BOLD + PINK + "if-else Statement" + RESET)
+        print("If condition is True it run to if first statement.")
+        print("If it is False it run to else statement.")
+
+        print(BOLD + "\nExample:" + RESET)
+        print("score = 84")
+        print("if score >= 80:")
+        print("    print(\"You passed!\")")
+        print("else:")
+        print("    print(\"You need to study more!\")")
+
+        print("\nOutput:")
+        print("You Passed!")
+  
+        print(BOLD + "\nExample 2:" + RESET)
+        print("score = 79")
+        print("if score >= 80:")
+        print("    print(\"You passed!\")")
+        print("else:")
+        print("    print(\"You need to study more!\")")
+
+        print("\nOutput:")
+        print("You need to study more!")
+        print(LINE)
+
+#============================================================
+        while True:
+            back_menu = input("Press Y to return to Proceed to the next lesson: ").upper().strip()
+            if back_menu == "Y":
+                break
+            else:
+                print(BOLD + PINK + "Please enter only Y to proceed!" + RESET)
+                print(LINE_2)
+#============================================================
+
+        print(LINE)
+        print(BOLD + PINK + "If-elif-else statement" + RESET)
+        print("Used when there are three or more conditions to check. If first")
+        print("condition is True, it run the first independent block.")
+ 
+        print(BOLD + "\nExample:" + RESET)
+        print("score = 95")
+        print("if score >= 90:")
+        print("    print(\"Excellent\")")
+        print("elif score >= 80:")
+        print("    print(\"Good\")")
+        print("else:")
+        print("    print(\"Needs improvement\")")
+
+        print("\nOutput:")
+        print("Excellent\n")
+
+        print(BOLD + "#But If the first condition is False, it run to elif condition." + RESET)
+        print(BOLD + "Example 2:" + RESET)
+        print("score = 84")
+        print("if score >= 90:")
+        print("    print(\"Excellent\")")
+        print("elif score >= 80:")
+        print("    print(\"Good\")")
+        print("else:")
+        print("    print(\"Needs improvement\")")
+
+        print("\nOutput:")
+        print("Good\n")
+
+        print(BOLD + "#But If the elif condition is also false, it run to else condition." + RESET)
+        print(BOLD + "Example 3:" + RESET)
+        print("score = 95")
+        print("if score >= 90:")
+        print("    print(\"Excellent\")")
+        print("elif score >= 80:")
+        print("    print(\"Good\")")
+        print("else:")
+        print("    print(\"Needs improvement\")")
+
+        print("\nOutput:")
+        print("Needs improvement ")
+        print(LINE)
