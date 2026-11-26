@@ -138,3 +138,40 @@ while True:
         print("✅ print(25)")
         print("❌ print(\"25\") #sees as text or string by the program")
         print(LINE)
+
+#============================================================
+        while True:
+            back_menu = input("Press Y to return to MAIN MENU: ").upper().strip()
+            if back_menu == "Y":
+                break
+            else:
+                print("Please enter only Y to go back to the menu!")
+#============================================================
+
+    elif choice == "4":
+        print(LINE)
+        print(BOLD + PINK + "Python Comments" + RESET)
+        print("\nComments are used to explain codes, but ignored by python completely")
+        print("when running the program. They do not show in the output when program is being run.")
+        print(BOLD + "\nTypes of Python Comments:" + RESET)
+        print(BOLD + PINK + "1. Single‑Line Comment (#)" + RESET)
+        print("Use the hashtag symbol# for one‑line comments. ")
+
+        print("\nExample: ")
+        print("# This is a single‑line comment")
+        print("print(\"Hello\")")
+        
+        print(BOLD + PINK + "\n2. Multi‑Line Comment (\"\"\"  \"\"\" / \'\'\'  \'\'\')" + RESET)
+        print("commonly use them to write long‑form explanations that")
+        print("span several lines")
+
+        print("\nExample: ")
+        print("\"\"\" ")
+        print("This is a")
+        print("multi‑line")
+        print("comment.")
+        print("\"\"\" ")
+        print("print(\"Hello\")")
+        print(LINE)
+
+
