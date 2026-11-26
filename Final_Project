@@ -23,7 +23,7 @@ while True:
 8.  Python Basic Input & Output
 9.  Python Conditional StatemeNT
 10. Python Logical Operator
-11. Python Iteration & Loops""")
+11. Python Iteration & Loops\n""")
     print(LINE)
     
 #============================================================
@@ -90,4 +90,51 @@ while True:
         print("— \"Age\" and \"age\" mean different things. Use the correct lower‑case")
         print("or upper‑case if the same variable is being use.")
         print(LINE)
+        
+#============================================================
+        while True:
+            back_menu = input("Press Y to return to MAIN MENU: ").upper().strip()
+            if back_menu == "Y":
+                break
+            else:
+                print("Please enter only Y to go back to the menu!")
+#============================================================
 
+    elif choice == "3":
+        print(LINE)
+        print(BOLD + PINK + "Python Printing Output" + RESET)
+        print(BOLD + "\nType: " + RESET)
+        print(BOLD + PINK + "1.Printing statement " + RESET)
+        print("The print() function used to display or output data onto the screen.")
+        print("Whenever you want the computer to show text, numbers, or calculation")
+        print("results, you use print().")
+
+        print(BOLD + PINK + "\n2.Printing Text (String)" + RESET)
+        print("When printing text / words, you must put the text inside single")
+        print("quotation marks \'\' or double quotation marks \"\". ")
+        
+        print("\nExample:")
+        print("✅ print(\"Hello Python!\")")
+        print("❌ print(Hello python!)")
+        print("\nOutput:")
+        print("Hello Python!\n")
+        print(LINE_2)
+        
+        while True:
+            practice = input("\nTry typing the program from the example to proceed: ").strip()
+            if practice == 'print("Hello Python")':
+                break
+            elif practice == 'print("hello python")':
+                break
+            else:
+                print("Error! Try again.")
+        
+        print(LINE_2)
+        print(BOLD + PINK + "\n3.Printing Numbers" + RESET)
+        print("When printing numbers, you do NOT use quotation marks because the")
+        print("program will see as text / string, not numbers.")
+        
+        print("\nExample:")
+        print("✅ print(25)")
+        print("❌ print(\"25\") #sees as text or string by the program")
+        print(LINE)
