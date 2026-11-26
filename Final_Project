@@ -212,7 +212,7 @@ while True:
 
 #============================================================
         while True:
-            back_menu = input("Press Y to return to Proceed to the next lesson: ").upper().strip()
+            back_menu = input("Press Y to Proceed to the next lesson: ").upper().strip()
             if back_menu == "Y":
                 break
             else:
@@ -411,7 +411,7 @@ while True:
 
 #============================================================
         while True:
-            back_menu = input("Press Y to return to Proceed to the next lesson: ").upper().strip()
+            back_menu = input("Press Y to Proceed to the next lesson: ").upper().strip()
             if back_menu == "Y":
                 break
             else:
@@ -435,7 +435,7 @@ while True:
 
 #============================================================
         while True:
-            back_menu = input("Press Y to return to Proceed to the next lesson: ").upper().strip()
+            back_menu = input("Press Y to Proceed to the next lesson: ").upper().strip()
             if back_menu == "Y":
                 break
             else:
@@ -471,7 +471,7 @@ while True:
 
 #============================================================
         while True:
-            back_menu = input("Press Y to return to Proceed to the next lesson: ").upper().strip()
+            back_menu = input("Press Y to Proceed to the next lesson: ").upper().strip()
             if back_menu == "Y":
                 break
             else:
@@ -525,7 +525,7 @@ while True:
         
 #============================================================
         while True:
-            back_menu = input("Press Y to return to Proceed to the next lesson: ").upper().strip()
+            back_menu = input("Press Y to Proceed to the next lesson: ").upper().strip()
             if back_menu == "Y":
                 break
             else:
@@ -619,4 +619,90 @@ while True:
         print("\nOutput:")
         print("Present in class.")
         print(LINE)
+#============================================================
+        while True:
+            back_menu = input("Press Y to return to MAIN MENU: ").upper().strip()
+            if back_menu == "Y":
+                break
+            else:
+                print(BOLD + PINK + "INVALID! Please enter only Y to go back to the menu!" + RESET)
+                print(LINE_2)     
+#============================================================
+
+    elif choice == "11":
+        print(LINE)
+        print(BOLD + PINK + "Python Iteration & loops" + RESET)
+
+        print("\nIteration means repeating a block of code over and over again.")
+        print("In Python, you can use loops to do iteration. Instead of writing the")
+        print("same print statement many times, the program do it automatically.")
+        print("\n❌:")
+        print("print(\"Number: 1\")")
+        print("print(\"Number: 2\")")
+        print("print(\"Number: 3\")")
+        print("print(\"Number: 4\")")
+        print("print(\"Number: 5\")")
+  
+        print("\nfor number in range(1,6):")
+        print("    print(\"Number:\", number)")
+        
+        print("\n✅:")
+        print("Output:")
+        print("Number: 1")
+        print("Number: 2")
+        print("Number: 3")
+        print("Number: 4")
+        print("Number: 5")
+        print(LINE)
+
+#============================================================
+        while True:
+            back_menu = input("Press Y to Proceed to the next lesson: ").upper().strip()
+            if back_menu == "Y":
+                break
+            else:
+                print(BOLD + PINK + "INVALID! Please enter only Y to proceed!" + RESET)
+                print(LINE_2)
+#============================================================
+
+        print(LINE)
+        print(BOLD + PINK + "for Loop" + RESET)
+        print("\nThe for loop repeats code for a fixed number of times or goes through each item one‑by‑one.")
+
+        print("\nExample: ")
+        print("for number in range(1,6):")
+        print("    print(\"Number:\", number)")
+
+        print("Output:")      
+        print("Number: 1")
+        print("Number: 2")
+        print("Number: 3")
+        print("Number: 4")
+        print("Number: 5")
+
+        print(LINE)
+
+        print(BOLD + PINK + "while Loop" + RESET)
+        print("The while loop keeps repeating the code as long as the condition stays")
+        print(BOLD + PINK + "True. " + RESET + "It stops once the condition becomes")
+        print(BOLD + PINK + "False." +  RESET)
+        
+        print("\nExample:")
+        print("count = 1")
+        print("while count <= 5:")
+        print("    print(\"Count:\", count)")
+        print("    count = count + 1")
+
+        print("\nOutput")
+        print("Count: 1")
+        print("Count: 2")
+        print("Count: 3")
+        print("Count: 4")
+        print("Count: 5")
+        print(LINE)
+#============================================================
+    else:
+        print("Invalid! Please enter your choice(1-18): ")
+    break 
+    print("THANK YOU!")
 
